@@ -1,7 +1,7 @@
 let password: string = "4585999";
 
 function valid(a:string):boolean {
-    return (a.length>6);
+    return (a.length>=6);
 }
 console.log(valid(password));
 
